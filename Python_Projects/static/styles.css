@@ -1,0 +1,121 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+/* Body background */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 80px; /* Added padding to the bottom */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+}
+
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background-color: #0068b7;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Table for EMI Schedule */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #0068b7;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+/* Footer */
+footer {
+    background-color: #0068b7;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative; /* Changed from fixed to relative */
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px; /* Ensure space between the content and the footer */
+}
+
